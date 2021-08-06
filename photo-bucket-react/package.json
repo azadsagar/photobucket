@@ -1,0 +1,51 @@
+{
+  "name": "photo-bucket-react",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@aws-amplify/ui-react": "^1.2.4",
+    "@material-ui/core": "^4.11.4",
+    "@material-ui/icons": "^4.11.2",
+    "@reduxjs/toolkit": "^1.6.0",
+    "@testing-library/jest-dom": "^5.14.1",
+    "@testing-library/react": "^11.2.7",
+    "@testing-library/user-event": "^12.8.3",
+    "aws-amplify": "^4.1.1",
+    "axios": "^0.21.1",
+    "css-loader": "^5.2.6",
+    "react": "^17.0.2",
+    "react-awesome-lightbox": "^1.8.0",
+    "react-dom": "^17.0.2",
+    "react-grid-gallery": "^0.5.5",
+    "react-images": "^1.2.0-beta.7",
+    "react-infinite-scroll": "^0.1.5",
+    "react-infinite-scroller": "^1.2.4",
+    "react-redux": "^7.2.4",
+    "react-scripts": "^4.0.3",
+    "web-vitals": "^1.1.2"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}
